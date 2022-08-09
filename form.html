@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="form.css" />
+
+    <style>
+        .dyg{
+            display: inline-block;
+            width: 100px;
+        }
+    </style>
+
+
+
+    <title>Clarusway Form</title>
+  </head>
+  <body>
+
+    <fieldset>
+
+    <div class="main-container">
+      <br />
+      <div class="header-container"><h1><b>Clarusway Survey Form</b></h1></div>
+      <br /> <br><br>
+
+      <div class="write-container">  <p>Thank yout for taking the time to help us improve the platform</p></div>
+    
+      <br />
+      <form action method="get">
+
+        <div class="form-container">
+
+      <div>
+        <label for="ad">Name</label>
+        <br />
+        <input type="text" name="isim" id="ad" placeholder="Enter Your Name" />
+        <br />
+        <label for="soyad">Surname</label>
+        <br />
+        <input
+          type="text"
+          name="soyisim"
+          id="soyad"
+          placeholder="Enter Your Surname"
+        />
+        <br />
+        <label for="mail">Email</label>
+        <br />
+        <input
+          type="text"
+          name="mail@adresi"
+          id="mail"
+          placeholder="user@clarusway.com"
+        />
+      </div>
+      <br>
+      <div>
+        <label for="select"><b>Which option best describes your current role?</b></label>
+        <br>
+        <select name="role" id="role">
+            <option disabled selected >Select current role</option>
+            <option value="Student">Student</option>
+            <option value="Mentor">Mentor</option>
+            <option value="Instructor">Instructor</option>
+            <option value="Cordinator">Cordinator</option>
+            <option value="Team-Leader">Team Leader</option>
+        </select>
+      </div>
+      <br>
+      <div>
+        <p><b>Would you recommend Clarusway to a friend?</b></p>
+        <input type="radio" name="answer" id="gender1">
+        <label for="gender1">Definitely, Yes</label>
+        <br>
+        <input type="radio" name="answer" id="gender2">
+        <label for="gender2">Maybe</label>
+        <br>
+        <input type="radio" name="answer" id="gender3">
+        <label for="gender3">Not Sure</label>
+        <br>
+        <input type="radio" name="answer" id="gender4">
+        <label for="gender4">Definitely, No</label>
+      </div>
+      <br>
+      <div>
+        <label for="select"><b>What is your favorite feature of Clarusway?</b></label>
+        <br><br>    
+        <select name="role" id="role">
+            <option disabled selected >Select an option</option>
+            <option value="Online">Online</option>
+            <option value="Projects">Projects</option>
+            <option value="Community">Community</option>
+        </select>
+      </div>
+      <br>
+
+      <div>
+        <p><b>What would you like to see improved? (Check all that apply)</b></p>
+        <br>
+
+        <input type="checkbox" name="project-1" id="front">
+        <label for="front">Front-end Projects</label>
+        <br>
+        <input type="checkbox" name="project-2" id="back">
+        <label for="back">Back-end Projects </label>
+        <br>
+        <input type="checkbox" name="science" id="data">
+        <label for="data">Data Science</label>
+        <br>
+        <input type="checkbox" name="project" id="course">
+        <label for="course">Additional Courses</label>
+      </div>
+      <br>
+      <div>
+        <p><b>Any comments or suggestions?</b></p>
+        <textarea name="commend" id="commend" cols="20" rows="4" placeholder="Enter your comment here... Thanks for youEnter your comment here... Thanks for youEnter your comment here... Thanks for you"></textarea>
+      </div>
+      
+
+      <br />
+           
+
+      <div class="form-submit">
+        <button type="submit" id="form-button" >Submit</button>
+      </div>
+
+      <br>
+
+      <div class="form-reset">
+        <button type="reset" id="form-button" >Reset</button>
+      </div>
+
+      
+
+    </form>
+    </div>
+</fieldset>
+  </body>
+</html>
